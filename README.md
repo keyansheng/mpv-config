@@ -1,26 +1,21 @@
-# Install (PowerShell/Bash)
+# Install
 
 ```bash
 # Linux/macOS
-cd ~/.config
+git clone https://github.com/keyansheng/mpv-settings $HOME/.config/mpv
 
 # Windows
-cd ~/AppData/Roaming
-
-# all operating systems
-mv mpv mpv-backup
-git clone https://github.com/keyansheng/mpv-settings mpv
+git clone https://github.com/keyansheng/mpv-settings $HOME/AppData/Roaming/mpv
 ```
 
-# Update (PowerShell/Bash)
+# Update
 
 ```bash
 # Linux/macOS
-cd ~/.config/mpv
+cd $HOME/.config/mpv
+git pull
 
 # Windows
-cd ~/AppData/Roaming/mpv
-
-# all operating systems
+cd $HOME/AppData/Roaming/mpv
 git pull
 ```
