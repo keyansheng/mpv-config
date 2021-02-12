@@ -2,10 +2,10 @@
 
 ```bash
 # Linux/macOS
-git clone https://github.com/keyansheng/mpv-settings $HOME/.config/mpv
+git clone https://github.com/keyansheng/mpv-config $HOME/.config/mpv
 
 # Windows
-git clone https://github.com/keyansheng/mpv-settings $HOME/AppData/Roaming/mpv
+git clone https://github.com/keyansheng/mpv-config $HOME/AppData/Roaming/mpv
 ```
 
 # Update
