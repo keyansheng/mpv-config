@@ -12,10 +12,8 @@ git clone https://github.com/keyansheng/mpv-config $HOME/AppData/Roaming/mpv
 
 ```bash
 # Linux/macOS
-cd $HOME/.config/mpv
-git pull
+git -C $HOME/.config/mpv pull
 
 # Windows
-cd $HOME/AppData/Roaming/mpv
-git pull
+git -C $HOME/AppData/Roaming/mpv pull
 ```
